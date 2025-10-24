@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* navbar */
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+button{
+    background-color: rgb(247, 66, 11);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+}
+.content-rigt{
+    display: flex;
+}
+
+ 
+
+@media(max-width:px) {
+    .nav-links{
+        flex-direction: column;
+    }
+    .section{
+        flex-direction: column;
+    }
+}
